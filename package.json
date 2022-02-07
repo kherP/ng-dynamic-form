@@ -10,7 +10,7 @@
     "pack": "cd dist/dynamic-form && npm pack",
     "docs:json": "compodoc -p ./tsconfig.json -e json -d .",
     "build-pack-install": "npm run build && npm run pack && npm i dist/dynamic-form/sebgroup-ng-dynamic-form-0.0.1.tgz",
-    "storybook": "npm run docs:json && start-storybook -p 6006 --no-manager-cache",
+    "storybook": "npm run docs:json && start-storybook -p 6007 --no-manager-cache",
     "build-storybook": "build-storybook -o docs-build -s ./stories/assets",
     "semantic-release": "semantic-release"
   },
